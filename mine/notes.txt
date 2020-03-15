@@ -1,0 +1,13 @@
+Ch 2:
+    Recursive definitions of "expression," "term," and "factor":
+    expression ::= [+-] <term> [+- <term>]*
+    term ::= <factor> [*/ <factor>]*
+    factor ::= (<expression>)
+    factor ::= -<digit>
+    factor ::= <digit>
+    
+Ch 3:
+    Factor can also be a variable (or a function call):
+    factor ::= <variable>
+    factor ::= <func call>
+
